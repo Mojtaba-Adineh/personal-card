@@ -1,0 +1,51 @@
+@font-face{
+    font-family:lelezar;
+    src:url(../mini+project+4/fonts/Lalezar-Regular.ttf)  
+        format(truetype);
+}
+
+.container{
+    background-color: #648aee;
+    width: 750px;
+    height: 450px;
+    margin: auto;
+    margin-top: 120px;
+    box-shadow: rgba(0, 0, 0, 0.6) 0px 22px 70px 4px;
+    border: 1px solid none;
+    border-radius: 15px 30px 15px 30px;
+    position: relative;
+}
+
+.box{
+    background-color: #648aee;
+    width: 260px;
+    height: 450px;
+    position: absolute;
+    right: 35px;
+    bottom: 40px;
+    border: 1px solid none;
+    border-radius: 15px 30px 15px 30px;
+    box-shadow: rgba(0, 0, 0, 0.6) 0px 22px 70px 4px;
+    overflow: hidden;
+}
+
+.image{
+    margin-bottom: 7px;
+}
+
+
+.infoBelowPicture{
+    font-size: 19px;
+    font-family: lalezar;
+    margin: 5px 25px;
+}
+
+.paragraph{
+    font-size: 20px;
+    width: 400px;
+    position: absolute;
+    left: 30px;
+    top: 15px;
+    font-family: lalezar;
+    text-align: justify;
+}
